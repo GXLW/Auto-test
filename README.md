@@ -1,2 +1,2 @@
-# auto-test
+# Stepik
 Hello, it's auto-test
