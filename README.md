@@ -1,2 +1,2 @@
-# Stepik auto-test
-Hello, it's auto-test
+# Auto-test
+Hello, it's auto-test for the Stepik course
