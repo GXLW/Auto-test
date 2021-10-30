@@ -1,2 +1,2 @@
 # Auto-test
-Hello, it's auto-test for the Stepik course
+Hello, it's homework for the Stepik course
