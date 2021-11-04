@@ -25,6 +25,7 @@ class TestReg(unittest.TestCase):
         self.assertEqual(test_link('http://suninjuly.github.io/registration1.html'),
                          "Congratulations! You have successfully registered!", "registration is failed")
 
+
     def test_reg2(self):
         self.assertEqual(test_link('http://suninjuly.github.io/registration2.html'),
                          "Congratulations! You have successfully registered!", "registration is failed")
