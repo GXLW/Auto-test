@@ -1,7 +1,6 @@
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 import unittest
-import pytest
 
 
 def test_link(link):
@@ -29,7 +28,3 @@ class TestReg(unittest.TestCase):
     def test_reg2(self):
         self.assertEqual(test_link('http://suninjuly.github.io/registration2.html'),
                          "Congratulations! You have successfully registered!", "registration is failed")
-
-
-if __name__ == '__main__':
-    unittest.main()
