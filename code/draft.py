@@ -28,7 +28,7 @@ class TestDetectedAliens:
 
         link = f'https://stepik.org/lesson/{number}/step/1'
         browser.get(link)
-        browser.implicitly_wait(50)
+        browser.implicitly_wait(10)
 
         browser.find_element(By.CSS_SELECTOR, 'textarea').send_keys(answer)        # вводим результат
         browser.find_element(By.CSS_SELECTOR, 'button.submit-submission').click()   # нажимаем кнопку отпраки
